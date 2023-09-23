@@ -1,0 +1,77 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    text-align: center;
+    padding-top: 5rem;
+    background-color: #fff;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: 'Segoe UI', sans-serif;
+    text-transform: uppercase;
+    text-decoration: underline #00000030 3px;
+}
+
+form {
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+}
+
+form input {
+    padding: 5px;
+    border: none;
+    background-color: #00000030;
+}
+
+input:focus {
+    outline: 0;
+}
+
+form button {
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: #00000030;
+}
+
+button:hover {
+    background-color: #bdbbbb;
+}   
+
+#lista {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+ul {
+    background-color: #efefefa5;
+    width: 280px;
+    list-style: none;
+}
+
+li {
+    padding: 5px 0;
+    border-bottom: solid #00000030;
+    cursor: pointer;
+}
+
+.tarefa-finalizada {
+    text-decoration: line-through;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 1rem;
+    font-style: italic;
+}
+

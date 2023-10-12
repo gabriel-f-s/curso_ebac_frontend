@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&family=Pixelify+Sans:wght@500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    display: block;
+    background-color: #aae0ff;
+    border-bottom: #000000af solid;
+}
+
+header .cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1em;
+    padding-top: 1em;
+}
+
+header h1 img, .lista_produtos button img {
+    width: 1em;
+    margin: 0 0.5em;
+}
+
+header h1, .lista_produtos button {
+    font-family: 'Pixelify Sans', sans-serif;
+    padding-left: 0.5em;
+    display: flex;
+}
+
+header h2 {
+    font-size: 1em;
+    font-family: 'Fira Code', monospace;
+    margin-right: 1em;
+}
+
+header nav {
+    display: flex;
+    background-color: #050d1a;
+    padding: 0.5em;
+}
+
+header nav a {
+    font-family: 'Fira Code', monospace;
+    text-decoration: none;
+    color: #ffffff;
+    margin-left: 1em;
+}
+
+header nav a:hover {
+    border-bottom: #ffffff solid;
+}
+
+.conteudo {
+    padding-top: 4em;
+}
+
+.loja {
+    display: grid;
+    grid-template-columns: 49% 49%;
+    grid-template-areas:
+    "imagem texto" ;
+    gap: 2%;
+}
+
+.loja img {
+    width: 100%;
+    grid-area: imagem;
+}
+
+.loja div {
+    grid-area: texto;
+}
+
+.loja h2, .conteudo h2 {
+    font-family: 'Pixelify Sans', sans-serif;
+    border-bottom: solid #050d1a;
+    margin-bottom: 1em;
+}
+
+.loja p, .lista_produtos p  {
+    font-family: 'Fira Code', monospace;
+}
+
+.produtos {
+    margin-bottom: 5em;
+    padding-top: 4em;
+}
+
+.lista_produtos {
+    display: grid;
+    grid-template-columns: repeat(4, 23.5%);
+    column-gap: 2%;
+}
+
+.lista_produtos img {
+    width: 100%;
+    cursor: pointer;
+}
+
+.lista_produtos h3 {
+    font-family: 'Pixelify Sans', sans-serif;
+    margin: 2.5% 0;
+    text-align: center;
+}
+
+.lista_produtos p {
+    margin: 0 2.5%;
+}
+
+.lista_produtos button {
+    padding: 1em;
+    background-color: #aae0ff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    margin: 0 auto 0.5em auto;
+}
+
+.lista_produtos button:hover {
+    background-color: #61bdf3;
+}
+
+.produto {
+    display: flex;
+    flex-direction: column;
+    background-color: #aae0ff72;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.38);
+    justify-content: space-between;
+    gap: 0.5em;
+}
+
+@media screen and (min-width: 641px) and (max-width: 1032px) {
+    .container {
+        max-width: 90%;
+    }
+
+    .loja {
+        display: block;
+        max-width: max-content;
+    }
+
+    .loja h2 {
+        margin: 1em 0;
+    }
+
+    .lista_produtos {
+        grid-template-columns: repeat(2, 49%);
+        row-gap: 2%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    
+    .container {
+        max-width: 90%;
+    }
+
+    header .cabecalho {
+        display: block;
+        text-align: center;
+    }
+
+    header h1 {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+    }
+
+    header h2 {
+        padding-top: 0.5em;
+        margin: 0;
+    }
+
+    header nav a {
+        margin: 0;
+    }
+
+    header nav .container {
+        display: flex;
+        justify-content: center;
+        gap: 1em;
+    }
+
+    .loja {
+        display: block;
+        max-width: max-content;
+    }
+
+    .loja h2 {
+        margin: 1em 0;
+    }
+
+    .lista_produtos {
+        display: block;
+    }
+
+    .produto {
+        margin-bottom: 1em;
+    }
+
+}

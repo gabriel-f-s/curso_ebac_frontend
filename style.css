@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Nunito:wght@300;500&display=swap');
+
+body {
+    overflow-x: hidden;
+}
+
+h1, h2, h3 {
+    font-family: 'Lato', sans-serif;
+}
+
+h1 img {
+    height: 40px;
+    width: 40px;
+    margin-right: 0.5em;
+}
+
+p {
+    font-family: 'Nunito', sans-serif;
+}
+
+#cabecalho {
+    padding-bottom: 1em;
+    background-color: rgba(246, 246, 246, 0.282);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.521);
+}
+
+#container-carrossel {
+    width: 100%;
+}
+
+img {
+    display: block;
+    height: 600px;
+    width: 100%;
+    margin: auto;
+}
+
+#secao {
+    border-top: 2px solid rgba(0, 0, 0, 0.149);
+}
+
+
+
+.nav-link {
+    text-align: center;
+}

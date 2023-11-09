@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Nix Data</title>
+</head>
+
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="heading">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title fw-bold">
+                Nix Data
+            </h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-collapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-collapse">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item">
+                        <a href="#sobre-nos" class="nav-link active">
+                            <i class="bi bi-house"></i>
+                            Sobre nós
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#projetos" class="nav-link">
+                            <i class="bi bi-terminal"></i>
+                            Projetos
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#developers" class="nav-link">
+                            <i class="bi bi-people"></i>
+                            Nossos devs
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#orcamento" class="nav-link">
+                            <i class="bi bi-cash-coin"></i>
+                            Solicite um orçamento
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="#heading" data-bs-smooth-scroll="true">
+        <section id="sobre-nos">
+            <div class="carousel slide" data-bs-ride="carousel" id="carrossel">
+                <div class="carousel-inner text-center">
+                    <div class="carousel-item active" data-bs-interval="5000">
+                        <img src="./images/slide1.jpg" alt="Imagens Ilustrativas">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="5000">
+                        <img src="./images/slide2.jpg" alt="Imagens Ilustrativas">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="5000">
+                        <img src="./images/slide3.jpg" alt="Imagens Ilustrativas">
+                    </div>
+                </div>
+                <button type="button" class="carousel-control-next botao-carrossel" data-bs-target="#carrossel"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <button type="button" class="carousel-control-prev botao-carrossel" data-bs-target="#carrossel"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button class="active carrossel-icon" type="button" data-bs-target="#carrossel"
+                        data-bs-slide-to="0"></button>
+                    <button class="carrossel-icon" type="button" data-bs-target="#carrossel"
+                        data-bs-slide-to="1"></button>
+                    <button class="carrossel-icon" type="button" data-bs-target="#carrossel"
+                        data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="./images/office.jpg" alt="Nosso Escritório" class="d-block w-100 rounded">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title fw-bold">Sobre nós</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Et ab dicta mollitia dolor
+                                sapiente exercitationem, fugit eius harum voluptatum quidem alias sit officiis, soluta
+                                deleniti inventore similique nemo? Nobis, labore.
+                            </p>
+                            <h3 class="section-title">Sobre o escritório</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure dolore hic optio porro
+                                reiciendis? Autem, iure, dicta laborum minima architecto, quisquam eius corrupti optio
+                                ad excepturi voluptate pariatur eos commodi!
+                            </p>
+                            <ul>
+                                <li>Item 1</li>
+                                <li>Item 2</li>
+                                <li>Item 3</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="projetos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center fw-bold">Nossos projetos</h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <div class="card mb-3">
+                            <a href="https://exercicio-responsivo-dejb4r0cn-gabriel-f-s.vercel.app" target="_blank">
+                                <img src="./images/projeto1.json" alt="Imagem de um site"
+                                    class="d-block w-100 rounded card-img">
+                            </a>
+                            <h3 class="section-title card-header">
+                                <i class="bi bi-window"></i>
+                                E-Commerce Games
+                            </h3>
+                            <p class="card-body">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate architecto qui
+                                itaque,
+                                labore officiis quo aliquid aperiam laudantium quasi, sit accusantium facilis. Et sequi
+                                est
+                                cumque sunt voluptates! Ab, voluptates.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-3">
+                            <a href="https://project-newbie2-bk0gniznl-gabriel-f-s.vercel.app" target="_blank">
+                                <img src="./images/projeto2.json" alt="Imagem de um site"
+                                    class="d-block w-100 rounded card-img">
+                            </a>
+                            <h3 class="section-title card-header">
+                                <i class="bi bi-window"></i>
+                                Social Proof Section
+                            </h3>
+                            <p class="card-body">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate architecto qui
+                                itaque,
+                                labore officiis quo aliquid aperiam laudantium quasi, sit accusantium facilis. Et sequi
+                                est
+                                cumque sunt voluptates! Ab, voluptates.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-3">
+                            <a href="https://exercicio-bootstrap-avancado-hki35ay3p-gabriel-f-s.vercel.app"
+                                target="_blank">
+                                <img src="./images/projeto3.json" alt="Imagem de um site"
+                                    class="d-block w-100 rounded card-img">
+                            </a>
+                            <h3 class="section-title card-header">
+                                <i class="bi bi-window"></i>
+                                Boot & Strap Viagens
+                            </h3>
+                            <p class="card-body">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate architecto qui
+                                itaque,
+                                labore officiis quo aliquid aperiam laudantium quasi, sit accusantium facilis. Et sequi
+                                est
+                                cumque sunt voluptates! Ab, voluptates.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="developers" class="pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5 mt-5 fw-bold">
+                        Nossos devs
+                    </h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2 mb-2">
+                        <nav class="nav nav-pills flex-column">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#frontend"
+                                class="fw-bold text-start nav-link active">
+                                Front-End
+                            </button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#backend"
+                                class="fw-bold text-start nav-link">
+                                Back-End
+                            </button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#fullstack"
+                                class="fw-bold text-start nav-link">
+                                Full-Stack
+                            </button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#mobile"
+                                class="fw-bold text-start nav-link">
+                                Mobile
+                            </button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="frontend">
+                                <div class="row">
+                                    <div class="col-md-3 mb-5">
+                                        <img class="d-block w-100" src="./images/dev1.jpg"
+                                            alt="Foto do(a) desenvolvedor(a)">
+                                        <h5 class="fw-bold mt-2 section-title">Maria</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                        <button type="button" class="btn btn-dark">
+                                            <i class="bi bi-github"></i>
+                                            Veja o portfólio!
+                                        </button>
+                                    </div>
+                                    <div class="col-md-3 mb-5">
+                                        <img class="d-block w-100" src="./images/dev2.jpg"
+                                            alt="Foto do(a) desenvolvedor(a)">
+                                        <h5 class="fw-bold mt-2 section-title">Johnatan</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                        <button type="button" class="btn btn-dark">
+                                            <i class="bi bi-github"></i>
+                                            Veja o portfólio!
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="backend">
+                                <div class="row">
+                                    <div class="col-md-3 mb-5">
+                                        <img class="d-block w-100" src="./images/dev3.jpg"
+                                            alt="Foto do(a) desenvolvedor(a)">
+                                        <h5 class="fw-bold mt-2 section-title">Gabriel</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                        <button type="button" class="btn btn-dark">
+                                            <i class="bi bi-github"></i>
+                                            Veja o portfólio!
+                                        </button>
+                                    </div>
+                                    <div class="col-md-3 mb-5">
+                                        <img class="d-block w-100" src="./images/dev8.jpg"
+                                            alt="Foto do(a) desenvolvedor(a)">
+                                        <h5 class="fw-bold mt-2 section-title">Jéssica</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                        <button type="button" class="btn btn-dark">
+                                            <i class="bi bi-github"></i>
+                                            Veja o portfólio!
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="fullstack">
+                                <div class="row">
+                                    <div class="col-md-3 mb-5">
+                                        <img class="d-block w-100" src="./images/dev6.jpg"
+                                            alt="Foto do(a) desenvolvedor(a)">
+                                        <h5 class="fw-bold mt-2 section-title">Monique</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                        <button type="button" class="btn btn-dark">
+                                            <i class="bi bi-github"></i>
+                                            Veja o portfólio!
+                                        </button>
+                                    </div>
+                                    <div class="col-md-3 mb-5">
+                                        <img class="d-block w-100" src="./images/dev4.jpg"
+                                            alt="Foto do(a) desenvolvedor(a)">
+                                        <h5 class="fw-bold mt-2 section-title">Freddy</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                        <button type="button" class="btn btn-dark">
+                                            <i class="bi bi-github"></i>
+                                            Veja o portfólio!
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="mobile">
+                                <div class="row">
+                                    <div class="col-md-3 mb-5">
+                                        <img class="d-block w-100" src="./images/dev5.jpg"
+                                            alt="Foto do(a) desenvolvedor(a)">
+                                        <h5 class="fw-bold mt-2 section-title">Daniel</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                        <button type="button" class="btn btn-dark">
+                                            <i class="bi bi-github"></i>
+                                            Veja o portfólio!
+                                        </button>
+                                    </div>
+                                    <div class="col-md-3 mb-5">
+                                        <img class="d-block w-100" src="./images/dev7.jpg"
+                                            alt="Foto do(a) desenvolvedor(a)">
+                                        <h5 class="fw-bold mt-2 section-title">Jhennifer</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                        <button type="button" class="btn btn-dark">
+                                            <i class="bi bi-github"></i>
+                                            Veja o portfólio!
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="orcamento" class="pt-5 pb-4">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center fw-bold mb-5">Solicite um orçamento</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label section-title fw-bold">Seu nome</label>
+                                <input type="text" class="form-control" id="nome" name="nome">
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label section-title fw-bold">Seu e-mail</label>
+                                <input type="text" class="form-control" id="email" name="email">
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label section-title fw-bold">Seu telefone
+                                    (Opcional)</label>
+                                <input type="text" class="form-control" id="telefone" name="telefone">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label section-title fw-bold">Sua mensagem</label>
+                                <textarea class="form-control" id="mensagem" name="mensagem"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-dark fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 fw-bold">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes Sociais
+                            </h3>
+                            <ul class="social">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="#">
+                                        <i class="bi bi-instagram"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 fw-bold">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço
+                            </h3>
+                            <p>
+                                Avenida Código n° 2112, Bairro Bootstrap - Pythópolis - PY
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <div>
+            <p class="text-center">
+                &copy; Gabriel Fonseca.
+            </p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="./scripts/jquery.mask.min.js"></script>
+    <script src="./scripts/jquery.validate.min.js"></script>
+    <script src="./scripts/script.js"></script>
+</body>
+
+</html>
